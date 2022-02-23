@@ -16,7 +16,7 @@ int main() {
 	
 	printf("Diameter is:%d\n",diameter);
 	printf("Circumference is:%.2f\n",circumference);
-	printf("Area is:%.2f\n",area);
+	printf("Area is:%.2f\n",a;
   
   
   return 0;
