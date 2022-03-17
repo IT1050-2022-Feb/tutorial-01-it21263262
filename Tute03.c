@@ -8,11 +8,20 @@ e.g.
 n -> 100
 sum = 1+2+3+....+ 99+100 = 5050
 
-n -> 1-
+n -> 10
 sum = 1+2+3+...+10 = 55 */
 
-#include <stdio.h>
-int main() {
+#include<stdio.h>
+int main()
+{
+  int n;
+  float sum;
+
+  printf("Enter the no. of terms :");
+  scanf("%d", &n);
+  
+  sum = (n * (n + 1) ) / 2;
+  printf("Sum of %d natural number is = %.2f", n,sum);
   
   return 0;
 }

@@ -3,22 +3,21 @@
    Write a C program to input marks of two subjects. Calculate and print the average of the two marks. */
 
 #include <stdio.h>
-
-int main() {
-  int radius,diameter;
-	float circumference,area;
-	printf("Enter the radius:");
-	scanf("%d\n",&radius);
+int main(void)
+{
+	int mark1 , mark2;
+	float average;
 	
-	diameter=radius*2;
-	circumference=2*3.14*radius;
-	area=3.14*radius*radius;
+	printf("Enter the marks for subject 1 :");
+	scanf("%d", &mark1);
 	
-	printf("Diameter is:%d\n",diameter);
-	printf("Circumference is:%.2f\n",circumference);
-	printf("Area is:%.2f\n",a;
-  
-  
-  return 0;
+	printf("Enter the marks for subject 2 :");
+	scanf("%d", &mark2);
+	
+	average =((mark1 + mark2)/2.0);
+	
+	printf("Average is %.2f ", average);
+	
+	return 0;
 }
 
